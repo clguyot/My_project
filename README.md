@@ -1,5 +1,23 @@
 # My_project 
-This is a new file call readme
-And now I want to eat
-It's coffea time
->>>>>>> refs/remotes/origin/master
+#!/bin/bash
+addition(){
+   sum=$(($1+$2))
+   return $sum
+}
+read -p "Entrez un numéro : " int1
+read -p "Entrez un numéro : " int2
+add $int1 $int2
+echo "Le résultat est : " $?
+
+
+
+
+#!/bin/bash
+addition(){
+   sum=$(($1+$2))
+   return $sum
+}
+read -p "Entrez un numéro : " int1
+read -p "Entrez un numéro : " int2
+add $int1 $int2
+echo "Le résultat est : " $?
